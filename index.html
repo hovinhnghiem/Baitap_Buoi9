@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Buổi 9
+    </title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="group1">
+        <div class="container">
+            <h2>Tính tiền lương nhân viên</h2>
+    
+            <label for="soNgay">Nhập số ngày làm việc:</label>
+            <input type="number" id="soNgay"><br><br>
+    
+            <button onclick="tinhLuong()">Tính lương</button>
+    
+            <h3 id="ketQua2"></h3>
+    
+        </div>
+        <div class="container">
+            <h2>Tính trung bình cộng 5 số</h2>
+    
+            <input type="number" id="so1" placeholder="Nhập số thứ nhất">
+            <input type="number" id="so2" placeholder="Nhập số thứ hai">
+            <input type="number" id="so3" placeholder="Nhập số thứ ba">
+            <input type="number" id="so4" placeholder="Nhập số thứ tư">
+            <input type="number" id="so5" placeholder="Nhập số thứ năm">
+            <button onclick="tinhTrungBinh()">Tính trung bình</button>
+    
+            <h3 id="ketQua3"></h3>
+        </div>
+        <div class="container">
+            <h2>Quy Đổi Tiền</h2>
+    
+            <label for="soLuongUSD">Nhập số lượng USD:</label>
+            <input type="number" id="soLuongUSD"><br><br>
+    
+            <label for="tiGiaUSD">Nhập tỷ giá USD/VND:</label>
+            <input type="number" id="tiGiaUSD"><br><br>
+    
+            <button onclick="chuyenDoi()">Chuyển đổi</button>
+    
+            <h3 id="ketQua1"></h3>
+        </div>
+    </div>
+
+    <div class="group2">
+        <div class="container">
+            <h2>Tính Chu Vi và Diện Tích Hình Chữ Nhật</h2>
+    
+            <input type="number" id="chieuDai" placeholder="Nhập chiều dài (x)">
+            <input type="number" id="chieuRong" placeholder="Nhập chiều rộng (y)">
+    
+            <button onclick="tinhChuViDienTich()">Tính ngay</button>
+    
+            <h3 id="ketQuaChuVi"></h3>
+            <h3 id="ketQuaDienTich"></h3>
+        </div>
+        <div class="container">
+            <h2>Tính Tổng 2 Chữ Số</h2>
+    
+            <input type="number" id="soNguyenDuong" placeholder="Nhập số nguyên dương 2 chữ số">
+            <button onclick="tinhTong()">Tính ngay</button>
+    
+            <h3 id="thongBao"></h3>
+            <h3 id="ketQuaHangChuc"></h3>
+            <h3 id="ketQuaHangDonVi"></h3>
+            <h3 id="tongHaiChuSo"></h3>
+        </div>
+    </div>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
